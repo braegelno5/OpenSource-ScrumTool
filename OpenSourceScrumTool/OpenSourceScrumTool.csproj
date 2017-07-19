@@ -24,6 +24,8 @@
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -261,18 +263,6 @@
     <Compile Include="Migrations\201502251334408_Initial11.cs" />
     <Compile Include="Migrations\201502251334408_Initial11.Designer.cs">
       <DependentUpon>201502251334408_Initial11.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201503052023525_Initial12.cs" />
-    <Compile Include="Migrations\201503052023525_Initial12.Designer.cs">
-      <DependentUpon>201503052023525_Initial12.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201503052025297_Initial13.cs" />
-    <Compile Include="Migrations\201503052025297_Initial13.Designer.cs">
-      <DependentUpon>201503052025297_Initial13.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201503102143257_Initial14.cs" />
-    <Compile Include="Migrations\201503102143257_Initial14.Designer.cs">
-      <DependentUpon>201503102143257_Initial14.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201503141711154_Initial15.cs" />
     <Compile Include="Migrations\201503141711154_Initial15.Designer.cs">
@@ -698,15 +688,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201502251334408_Initial11.resx">
       <DependentUpon>201502251334408_Initial11.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201503052023525_Initial12.resx">
-      <DependentUpon>201503052023525_Initial12.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201503052025297_Initial13.resx">
-      <DependentUpon>201503052025297_Initial13.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201503102143257_Initial14.resx">
-      <DependentUpon>201503102143257_Initial14.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201503141711154_Initial15.resx">
       <DependentUpon>201503141711154_Initial15.cs</DependentUpon>
